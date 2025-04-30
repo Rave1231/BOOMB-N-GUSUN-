@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profilim</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Profilini Oluştur</h2>
+    <input type="text" id="displayName" placeholder="Görünen Ad">
+    <input type="text" id="username" placeholder="Kullanıcı Adı (@)">
+    <input type="text" id="steam" placeholder="Steam Linki">
+    <input type="text" id="instagram" placeholder="Instagram Linki">
+    <input type="text" id="discord" placeholder="Discord Sunucu Linki">
+    <button onclick="saveProfile()">Kaydet</button>
+  </div>
+  <script src="supabase.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
